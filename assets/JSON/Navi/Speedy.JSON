@@ -1,0 +1,54 @@
+{
+    "sprite1": "Navicella1.gif",
+    "sprite2": "Navicella2.gif",
+    "metadata":{
+        "name" : "Speedy",
+        "type" : "Interceptor",
+        "description" :
+            "A fast ship, capable of attacking enemy from multiple angles, with low life and armaments"
+    },
+    "max_life": 500,
+    "acceleration": 0.0005,
+    "turn_speed": 0.00003,
+    "turn_drag":  0.005,
+    "weight": 100,
+    "drag": 0.001,
+    "available_cannons": {
+        "A": {
+            "rel_pos": { "x": 29, "y": 0 },
+            "rel_direction": 0,
+            "type": "Simple"
+        },
+        "B1": {
+            "rel_pos": { "x": -3, "y": -19 },
+            "rel_direction": 0,
+            "type": "Simple"
+        },
+        "B1_rotated": {
+            "rel_pos": { "x": -3, "y": -19 },
+            "rel_direction": -0.05,
+            "type": "Simple"
+        },
+        "B2": {
+            "rel_pos": { "x": -3, "y": 19 },
+            "rel_direction": 0,
+            "type": "Simple"
+        },
+        "B2_rotated": {
+            "rel_pos": { "x": -3, "y": 19 },
+            "rel_direction": 0.05,
+            "type": "Simple"
+        },
+        "C": {
+            "rel_pos": { "x": 29, "y": 0 },
+            "rel_direction": 0,
+            "type": "Laser"
+        }
+    },
+    "upgrades": [
+        [ "A" ],
+        [ "B1", "B2" ],
+        [ "A", "B1_rotated", "B2_rotated" ],
+        [ "C", "B1_rotated", "B2_rotated" ]
+    ]
+}

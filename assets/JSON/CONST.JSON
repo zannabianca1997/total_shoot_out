@@ -1,0 +1,28 @@
+{
+    "POWER_UPS": 1,
+    "ASTEROIDS": 1,
+
+    "FULLSCREEN": 0,
+    "MAX_FPS": 48,
+    "WINDOW_DIMENSION": [1000,800],
+
+    "DEBUG": 1,
+    "DEBUG_CIRCLES": 0,
+
+    "MAX_ASTEROIDS": 6,
+    "ASTEROIDS_DESPAWN_PROB": 0.1,
+    "ASTEROID_RESTITUTION": 0.8,
+
+    "COLOR_1": [ 255, 0, 0 ],
+    "COLOR_2": [ 0, 255, 0 ],
+    "DRAW_COLOR": [ 255, 128, 0 ],
+
+    "LIFE_BAR_WIDTH_FRACTION": 0.02,
+
+    "WINNING_FONT": "romans",
+    "WINNING_FONT_SIZE": 70,
+    "WINNING_FONT_BOLD": 1,
+
+    "COLLISION_COST": 1,
+    "NAVICELLA_RESTITUTION": 0.5
+}

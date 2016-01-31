@@ -1,0 +1,8 @@
+{
+    "sprite": "LevelUP.gif",
+    "function": "LevelUP.py",
+    "timeout": 5000,
+    "spawn_rate": 20000,
+    "CONST":{
+    }
+}

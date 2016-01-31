@@ -1,0 +1,9 @@
+{
+    "sprite1": "laser1.png",
+    "sprite2": "laser2.png",
+    "damage": 3,
+    "launch_speed": 0.4,
+    "shoot_rate": 30,
+    "impulse":  0,
+    "friendly_fire": 0
+}

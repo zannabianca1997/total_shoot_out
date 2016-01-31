@@ -1,0 +1,9 @@
+{
+    "sprite1": "bullet1.gif",
+    "sprite2": "bullet2.gif",
+    "damage": 3,
+    "launch_speed": 0.5,
+    "shoot_rate": 100,
+    "impulse": 0.2,
+    "friendly_fire": 0
+}

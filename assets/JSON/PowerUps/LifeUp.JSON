@@ -1,0 +1,9 @@
+{
+    "sprite": "LifeUP.gif",
+    "function": "LifeUP.py",
+    "timeout": 5000,
+    "spawn_rate": 10000,
+    "CONST":{
+        "LIFE_UP_FRACTION": 0.1
+    }
+}

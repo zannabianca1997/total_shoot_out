@@ -1,0 +1,51 @@
+{
+    "sprite1": "Navicella1.gif",
+    "sprite2": "Navicella2.gif",
+    "metadata":{
+        "name" : "Debug",
+        "type" : "Strongest",
+        "description" :
+            "A foul ship, capable of killing anything and (almost) invincible"
+    },
+    "max_life": 5000000,
+    "acceleration": 0.005,
+    "turn_speed": 0.00003,
+    "turn_drag":  0.005,
+    "weight": 100,
+    "drag": 0.01,
+    "available_cannons": {
+        "1": {
+            "rel_pos": { "y": 0, "x": 30 },
+            "rel_direction": 0,
+            "type": "Laser"
+        },
+        "2": {
+            "rel_pos": { "y": 25, "x": 15 },
+            "rel_direction": 1.0472,
+            "type": "Laser"
+        },
+        "3": {
+            "rel_pos": { "y": 25, "x": -15 },
+            "rel_direction": 2.0944,
+            "type": "Laser"
+        },
+        "4": {
+            "rel_pos": { "y": 0, "x": -30 },
+            "rel_direction": 3.1416,
+            "type": "Laser"
+        },
+        "5": {
+            "rel_pos": { "y": -25, "x": -15 },
+            "rel_direction": 4.1888,
+            "type": "Laser"
+        },
+        "6": {
+            "rel_pos": { "y": -25, "x": 15 },
+            "rel_direction": 5.236,
+            "type": "Laser"
+        }
+    },
+    "upgrades": [
+        [ "1" , "2", "3", "4", "5" , "6" ]
+    ]
+}

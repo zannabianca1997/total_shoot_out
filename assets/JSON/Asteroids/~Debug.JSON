@@ -1,0 +1,8 @@
+{
+    "sprite": "~Debug.jpg",
+    "spawn_rate": 0,
+	"max_life": 100,
+	"start_speed_range": [0.03, 0.1],
+    "start_rotation_range": [ 0, 0 ],
+	"weight": 40
+}
