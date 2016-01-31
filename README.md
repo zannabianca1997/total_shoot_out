@@ -1,2 +1,2 @@
 # total_shoot_out
-A symple game made whit python and pygame
+A symple game made with python and pygame
