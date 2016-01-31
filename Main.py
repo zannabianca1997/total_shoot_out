@@ -1,3 +1,5 @@
+#!/usr/bin/env python3.4
+
 import pygame
 from Game import Game
 from CONSTS import *
@@ -6,6 +8,8 @@ from CONSTS import *
 pygame.init()
 
 game = Game()
+
+#TODO: init menu
 if DEBUG:
     conf = {"nav1" : (1, "zannaShip"),"nav2" : (1, "yourShip"), "background" : 6}
 else:
@@ -13,3 +17,4 @@ else:
 game.Play(conf)
 
 pygame.quit()
+
