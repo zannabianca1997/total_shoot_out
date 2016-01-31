@@ -61,6 +61,5 @@ target/
 #Ipython Notebook
 .ipynb_checkpoints
 
-#PyCharm/gedit config
+#PyCharm config
 .idea/
-*~
